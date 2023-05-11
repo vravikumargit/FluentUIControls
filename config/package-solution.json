@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "basic-controls-client-side-solution",
+    "id": "503a2815-97b5-478a-a1aa-76a6f18a9314",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "BasicControls description"
+      },
+      "longDescription": {
+        "default": "BasicControls description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "basic-controls Feature",
+        "description": "The feature that activates elements of the basic-controls solution.",
+        "id": "fca2961a-ff0e-47c6-8c0e-41fef13d1a7f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/basic-controls.sppkg"
+  }
+}
