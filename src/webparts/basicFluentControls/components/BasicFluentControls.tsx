@@ -10,8 +10,7 @@ const stackTokenss:IStackTokens={
   childrenGap:10
 }
 export default class BasicFluentControls extends React.Component<IBasicFluentControlsProps, {}> {
-  public render(): React.ReactElement<IBasicFluentControlsProps> {
-   
+  public render(): React.ReactElement<IBasicFluentControlsProps> { 
 
     return (
      <>
